@@ -217,6 +217,11 @@ header .heading {
   left: 1%;
 
 }
+.text-1 img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
 .text-1  p {
   font-family: Open Sans;
 font-size: 28px;
@@ -256,6 +261,9 @@ text-align: center;
 }
 .text-2 img {
   margin-top: 6px;
+  width: 34px;
+    height: 64px;
+    object-fit: cover;
 }
 
 .btn-2 {
@@ -283,20 +291,30 @@ header .image  {
   position: absolute;
   top: 18%;
   right: 71%;
+  width: 239px;
+  height: 86px;
+  object-fit: cover;
   
 
 }
 
 .image .img-2 {
+
   position: absolute;
   top: 41%;
   left: 57%;
+  width: 281px;
+  height: 86px;
+  object-fit: cover;
 }
 
 .image .img-3 {
   position: absolute;
     bottom: 26%;
     right: 42%;
+    width: 230px;
+    height: 86px;
+    object-fit: cover;
 }
 
 /* ------------------------------------------------ */
@@ -531,17 +549,33 @@ text-align: left;
   font-size: 14px;
   transition: 0.3s all;
 }
-
+.select-btn .arrow-dwn img {
+  width: 23px;
+height: 11px;
+object-fit: cover;
+}
 .select-btn.open .arrow-dwn {
   transform: rotate(-180deg);
+
 }
+
+
 .select-btn.open ~ .list-items {
   display: block;
   position: absolute;
   margin-top: 70px;
   z-index: 8;
 }
-
+.select-btn-0 img {
+  width: 23px;
+  height: 11px;
+  object-fit: cover;
+}
+.select-btn-1 img {
+  width: 23px;
+  height: 11px;
+  object-fit: cover;
+}
 .list-items {
   position: relative;
   margin-top: 15px;
