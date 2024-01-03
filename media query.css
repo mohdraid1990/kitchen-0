@@ -61,7 +61,8 @@
   }
 
   .item img {
-    width: 50px;
+    width: 70px;
+    height: 61px;
   }
   .item span {
     font-size: 16px;
@@ -217,7 +218,8 @@
     font-size: 16px;
   }
   .item img {
-    width: 50px;
+    width: 70px;
+    height: 61px;
   }
 
   .Page-gallery .title h2 {
@@ -307,6 +309,10 @@
   }
   .Page-gallery .box {
     display: none;
+  }
+  .item img {
+    width: 70px;
+    height: 61px;
   }
 }
 
