@@ -398,9 +398,7 @@ height: 43px;
 }
 .item img {
   margin-bottom: 30px;
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
+
 }
 .item p {
   font-family: Open Sans;
