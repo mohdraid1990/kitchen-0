@@ -24,7 +24,7 @@ body {
   --container-color: hsl(230, 100%, 97%);
   --border-color: hsl(230, 25%, 80%);
   --black-color:hsla(0%,0%,0%,1);
-  --card-color:hsla(35,60%,96%,1);
+  --card-color:#FBF6EF;
   
 }
 
@@ -47,7 +47,7 @@ header {
 a{ 
   text-decoration: none; 
   color: var(--second-color);
-  font-size: 1.3rem; 
+  font-size: 14px ; 
   font-weight: bold; 
 } 
 
