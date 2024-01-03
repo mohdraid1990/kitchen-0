@@ -698,9 +698,7 @@ text-align: left;
   left: 24%;
   justify-content: center;
 }
-.list li {
-  list-style: none;
-}
+
 
 .list .line-1 {
   width: 1px;
