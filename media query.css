@@ -1,6 +1,6 @@
 @media screen and (min-width: 350px) and (max-width: 400px) {
   .nav-menu {
-    top: 18% !important;
+    top: 14% !important;
   }
 
   .navbar .logo {
@@ -41,7 +41,7 @@
       object-fit: cover;
       margin-top: 8px;
     }
-  }
+  
 
   .image .img-1 {
     display: none;
@@ -95,14 +95,13 @@
 }
 .Page-gallery .box {
 
-right: -11%;
-top: 77%;
+  display: none;
 
 }
 .card-work {
 
 top: 88%;
-left: 6%;
+left: 4%;
 }
 .box-footer{
  
@@ -168,7 +167,7 @@ align-items: center;
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .nav-menu {
-    top: 13% !important;
+    top: 11% !important;
   }
   .navbar .logo {
     padding-left: 20px;
@@ -205,29 +204,28 @@ align-items: center;
     height: 60px;
   }
   .image .img-1 {
-    top: 18%;
-    right: 59%;
-    width: 150px;
-    height: 86px;
-    object-fit: cover;
+ display: none;
+
+
+    
+
   }
 
   .image .img-2 {
-    top: 77% !important;
-    left: 2% !important;
-    width: 190px;
-    height: 86px;
-    object-fit: cover;
+  display: none;
+ 
+   
   }
   .image .img-3 {
-    bottom: 5% !important;
-    right: 46% !important;
-    width: 150px;
-    height: 86px;
-    object-fit: cover;
+    display: none;
+  
   }
   .title {
     left: 5%;
+  }
+  .title h1 {
+  
+    font-size: 20px !important;
   }
   .service hr {
     width: 150px !important;
@@ -271,13 +269,14 @@ align-items: center;
 }
 .Page-gallery .box {
 
-  right: -11%;
-  top: 77%;
+display: none;
 
 }
 .card-work {
 
   top: 88%;
+  left: 0%;
+  justify-content: center;
 }
 .box-footer{
    
@@ -329,6 +328,10 @@ left: 19%;
 }
 
 @media (min-width: 767px) and (max-width: 800px) {
+  .nav-menu {
+ 
+    top: 9% !important;
+  }
   .service .image-1 {
     display: none;
   }
@@ -337,6 +340,21 @@ left: 19%;
   }
   .items {
     left: 27%;
+  }
+  .image .img-1 {
+   
+    right: 64%;
+  }
+  .image .img-2 {
+    top: 46% !important;
+  }
+  .image .img-3 {
+
+    right: 28%;
+  }
+  .Page-gallery .box {
+   
+    display: none;
   }
 
   
@@ -356,21 +374,7 @@ left: 19%;
   .text-1 span {
     font-size: 20px;
   }
-  .image .img-1 {
-    top: 21%;
-    right: 59%;
-    width: 180px;
-  }
-  .image .img-2 {
-    top: 41% !important ;
-    left: 69% !important;
-    width: 220px;
-  }
-  .image .img-3 {
-    bottom: 24%;
-    right: 29%;
-    width: 180px;
-  }
+  
   .item span {
     font-family: Open Sans;
     font-size: 16px;
@@ -385,6 +389,7 @@ left: 19%;
   .Page-gallery .box {
 
     top: 70%;
+    right: 15%;
 }
 .select-box {
   margin: 67px 37px;
@@ -403,23 +408,10 @@ left: 19%;
 
 }
 }
-@media screen and (min-width: 1050px) and (max-width: 1200px) {
-  .nav-menu {
-    top: 16% !important;
-  }
 
-  .Page-gallery .box {
-   
-    top: 70%;
-  }
-  .card-work {
-   
-    top: 82%;
-  }
-}
 @media screen and (min-width: 1000px) and (max-width: 1030px) {
   .nav-menu {
-    top: 19% !important;
+    top: 15% !important;
   }
   .items {
     left: 52%;
@@ -440,9 +432,27 @@ left: 19%;
   top: 82%;
 }
 }
+
+
+
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
+  .nav-menu {
+    top: 13% !important;
+  }
+
+  .Page-gallery .box {
+   
+    top: 70%;
+  }
+  .card-work {
+   
+    top: 82%;
+  }
+}
+
 @media screen and (min-width: 1250px) and (max-width: 1290px) {
   .nav-menu {
-    top: 20% !important;
+    top: 16% !important;
   }
   .Page-gallery .box {
  
@@ -459,6 +469,7 @@ left: 19%;
 }
 /* for Desktop view  */
 @media screen and (max-width: 1300px) {
+
   .nav-menu {
     position: absolute;
     background-color: #002b45;
@@ -482,14 +493,11 @@ left: 19%;
   }
 
   .image .img-2 {
-    top: 35%;
-    left: 62%;
+    top: 36% ;
+    left: 62%  !important;
   }
 
-  .image .img-3 {
-    bottom: 25%;
-    right: 34%;
-  }
+  
   .items {
     top: 36%;
   }
