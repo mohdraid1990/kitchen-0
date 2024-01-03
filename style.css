@@ -35,7 +35,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 125vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -301,8 +301,8 @@ header .image  {
 .image .img-2 {
 
   position: absolute;
-  top: 41%;
-  left: 57%;
+  top: 44%;
+  left: 60%;
   width: 281px;
   height: 86px;
   object-fit: cover;
